@@ -1,0 +1,15 @@
+#This is a simple Python program that creates a dictionary of friends and their preferred programming languages
+d={}
+name=input("enter the name of friends :")
+lang=input("enter the language: ")
+d.update({name:lang})
+name=input("enter the name of friends :")
+lang=input("enter the language: ")
+d.update({name:lang})
+name=input("enter the name of friends :")
+lang=input("enter the language: ")
+d.update({name:lang})
+name=input("enter the name of friends :")
+lang=input("enter the language: ")
+d.update({name:lang})
+print(d)
