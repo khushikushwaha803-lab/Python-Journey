@@ -1,0 +1,15 @@
+# To print the line no.'s in which python is present
+
+with open("log_file.txt","r") as f:
+    lines=f.readlines()
+lineno=1
+found=False
+for line in lines:        
+   if("python".title() in line):
+        print(f"python is present in log file. Lile no. = {lineno}")
+          
+   found=True   
+   lineno+=1    
+
+if not found:
+        print("python is not present in log file") 

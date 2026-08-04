@@ -5,7 +5,7 @@ def table_generator(n):
     for i in range(1,11):
         result=n*i
         table+=f"{n}*{i}={result}\n"
-        table = table.rstrip("\n") 
+       
 
     with open(f"tables/table_{n}.txt","w") as f:
       f.write(table)
