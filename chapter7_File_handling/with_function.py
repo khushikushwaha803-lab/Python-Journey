@@ -1,6 +1,6 @@
 f=open("file.txt")
 print(f.read())
-# f.close()
+f.close()
 
 #the same can be done as using with function
 with open("file.txt") as f:
